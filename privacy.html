@@ -67,77 +67,103 @@
 
 <div class="page-wrap">
   <h1>Privacy Policy</h1>
-  <p class="last-updated">Last updated: June 7, 2025</p>
+  <p class="last-updated">Last updated: June 8, 2026</p>
 
   <p>Welcome to Yosh Call ("we", "our", or "us"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and website (collectively, the "Service"). Please read this carefully. If you disagree with its terms, please discontinue use of the Service.</p>
 
   <h2>1. Information We Collect</h2>
-  <p>We collect the following types of information:</p>
+  <p>We collect the following categories of information:</p>
   <ul>
-    <li><strong>Account Information:</strong> Email address, phone number, display name, and profile photo you provide during registration.</li>
+    <li><strong>Account Information:</strong> Email address, display name, and profile photo you provide during registration.</li>
     <li><strong>Usage Data:</strong> Call history, session duration, features used, and in-app activity.</li>
-    <li><strong>Device Information:</strong> Device model, operating system, unique device identifiers, and mobile network information.</li>
-    <li><strong>Payment & Wallet Data:</strong> Coin balance, diamond balance, transaction history, and withdrawal requests. We do not store full payment card details.</li>
-    <li><strong>Communications:</strong> Video and audio streams during live calls are transmitted via Agora RTC. We do not record or store call content.</li>
-    <li><strong>Technical Data:</strong> IP address, log data, crash reports, and performance metrics.</li>
+    <li><strong>Device Information:</strong> Device model, operating system, and crash diagnostic data collected via Firebase Crashlytics.</li>
+    <li><strong>Payment & Wallet Data:</strong> Coin balance, transaction history, and purchase records. We do not store full payment card details — payments are processed securely by Google Play Billing.</li>
+    <li><strong>Communications:</strong> Video and audio streams during live calls are transmitted in real-time via Agora RTC. We do not record, store, or retain call content.</li>
+    <li><strong>Technical Data:</strong> IP address, log data, crash reports, and app performance metrics.</li>
   </ul>
 
   <h2>2. How We Use Your Information</h2>
   <ul>
     <li>To create and manage your account</li>
     <li>To facilitate live video and voice calls between users</li>
-    <li>To process coin purchases, diamond earnings, and withdrawals</li>
-    <li>To send push notifications about calls, earnings, and app updates</li>
-    <li>To detect and prevent fraud, abuse, and policy violations</li>
+    <li>To process coin purchases and virtual gift transactions</li>
+    <li>To send push notifications about calls and app updates via Firebase Cloud Messaging</li>
+    <li>To detect, investigate, and prevent fraud, abuse, and policy violations</li>
+    <li>To monitor app stability and fix crashes via Firebase Crashlytics</li>
     <li>To improve, personalize, and expand our Service</li>
     <li>To comply with legal obligations</li>
   </ul>
 
-  <h2>3. Sharing of Information</h2>
-  <p>We do not sell your personal information. We may share data with:</p>
+  <h2>3. Third-Party Services</h2>
+  <p>We do not sell your personal information. We use the following third-party services that may process your data:</p>
   <ul>
-    <li><strong>Agora:</strong> Real-time audio/video infrastructure. Streams are end-to-end encrypted in transit.</li>
-    <li><strong>Supabase:</strong> Backend database and authentication provider hosting your account data.</li>
-    <li><strong>Payment Processors:</strong> For processing withdrawals and coin purchases.</li>
-    <li><strong>Law Enforcement:</strong> When required by applicable law, court order, or government authority.</li>
+    <li><strong>Agora RTC</strong> — Real-time audio/video infrastructure. Audio and video are encrypted in transit and not stored.</li>
+    <li><strong>Supabase</strong> — Backend database and authentication. Your account data is stored on Supabase's secure servers.</li>
+    <li><strong>Firebase (Google)</strong> — Crash reporting (Crashlytics) and push notifications (FCM).</li>
+    <li><strong>Google Play Billing</strong> — Secure in-app purchase processing for coin packages.</li>
+    <li><strong>Law Enforcement</strong> — We may disclose data when required by applicable law, court order, or government authority.</li>
   </ul>
 
   <h2>4. Camera & Microphone Access</h2>
-  <p>The app requests access to your camera and microphone solely for the purpose of conducting live video and voice calls. We do not access these at any other time. You can revoke permissions at any time via your device settings, though this will prevent call functionality.</p>
+  <p>The app requests access to your camera and microphone solely for the purpose of conducting live video and voice calls. We do not access these at any other time, and no recordings are made or stored. You can revoke permissions at any time via your device settings, though this will disable call functionality.</p>
 
   <h2>5. Data Retention</h2>
-  <p>We retain your account data for as long as your account is active. Transaction records are retained for up to 7 years for financial compliance. You may request deletion of your account and personal data by contacting us at yoshcallapp@gmail.com.</p>
+  <p>We retain your account data for as long as your account is active. Transaction records are retained for up to 7 years for financial compliance purposes. Crash logs are retained for 90 days. Upon account deletion, your personal data is permanently removed within 30 days, except where retention is required by law.</p>
 
-  <h2>6. Children's Privacy</h2>
-  <p>Yosh Call is not intended for users under the age of 18. We do not knowingly collect personal information from minors. If we become aware that a minor has provided us with personal data, we will delete it immediately.</p>
-
-  <h2>7. Data Security</h2>
-  <p>We use industry-standard security measures including encryption in transit (TLS), Row Level Security on our database, and secure authentication tokens. However, no method of transmission over the internet is 100% secure.</p>
-
-  <h2>8. Your Rights</h2>
-  <p>Depending on your location, you may have the right to:</p>
+  <h2>6. Account Deletion</h2>
+  <p>You can delete your account at any time directly from within the app:</p>
   <ul>
-    <li>Access the personal data we hold about you</li>
-    <li>Request correction of inaccurate data</li>
-    <li>Request deletion of your data</li>
-    <li>Object to or restrict certain processing</li>
-    <li>Data portability</li>
+    <li>Go to <strong>Profile</strong> → <strong>Settings</strong> → <strong>Delete Account</strong></li>
+    <li>Confirm deletion — your account and all associated data will be permanently removed within 30 days</li>
   </ul>
-  <p>To exercise these rights, contact us at <a href="mailto:yoshcallapp@gmail.com">yoshcallapp@gmail.com</a>.</p>
+  <p>Alternatively, you may request account deletion by emailing <a href="mailto:yoshcallapp@gmail.com">yoshcallapp@gmail.com</a> with the subject "Delete My Account".</p>
 
-  <h2>9. Changes to This Policy</h2>
-  <p>We may update this Privacy Policy from time to time. We will notify you of significant changes via the app or email. Continued use of the Service after changes constitutes acceptance of the updated policy.</p>
+  <h2>7. Children's Privacy</h2>
+  <p>Yosh Call is not intended for users under the age of 18. We do not knowingly collect personal information from minors. If we become aware that a minor has provided us with personal data, we will take immediate steps to delete it. If you believe a minor has registered, please contact us at yoshcallapp@gmail.com.</p>
 
-  <h2>10. Contact Us</h2>
-  <p>If you have questions about this Privacy Policy, please contact us:</p>
+  <h2>8. Data Security</h2>
+  <p>We implement industry-standard security measures to protect your data, including:</p>
+  <ul>
+    <li>TLS/HTTPS encryption for all data in transit</li>
+    <li>Row Level Security (RLS) on our database to prevent unauthorized access</li>
+    <li>Secure JWT-based authentication tokens</li>
+    <li>Regular security audits and monitoring</li>
+  </ul>
+  <p>In the event of a data breach that affects your personal data, we will notify you as required by applicable law.</p>
+
+  <h2>9. Your Rights (GDPR & CCPA)</h2>
+  <p>Depending on your location, you have the following rights regarding your personal data:</p>
+  <ul>
+    <li><strong>Right to Access:</strong> Request a copy of the personal data we hold about you</li>
+    <li><strong>Right to Rectification:</strong> Request correction of inaccurate or incomplete data</li>
+    <li><strong>Right to Erasure:</strong> Request deletion of your personal data ("right to be forgotten")</li>
+    <li><strong>Right to Restriction:</strong> Request that we limit how we process your data</li>
+    <li><strong>Right to Portability:</strong> Receive your data in a structured, machine-readable format</li>
+    <li><strong>Right to Object:</strong> Object to processing of your data for certain purposes</li>
+    <li><strong>California Residents (CCPA):</strong> You have the right to know what data is collected, to opt out of data selling (we do not sell data), and to non-discrimination for exercising your rights</li>
+  </ul>
+  <p>To exercise any of these rights, contact us at <a href="mailto:yoshcallapp@gmail.com">yoshcallapp@gmail.com</a>. We will respond within 30 days.</p>
+
+  <h2>10. Cookies & Local Storage</h2>
+  <p>Our mobile app does not use cookies. Our website may use essential cookies for basic functionality. We do not use tracking or advertising cookies. Local storage on your device is used only to maintain your session and app preferences.</p>
+
+  <h2>11. International Data Transfers</h2>
+  <p>Your data may be transferred to and processed in countries other than your own. We ensure appropriate safeguards are in place for such transfers, including reliance on standard contractual clauses where required by law.</p>
+
+  <h2>12. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. We will notify you of significant changes via in-app notification or email at least 7 days before the changes take effect. The updated date at the top of this page reflects the most recent revision. Continued use of the Service after changes constitutes acceptance of the updated policy.</p>
+
+  <h2>13. Contact Us</h2>
+  <p>If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us:</p>
   <ul>
     <li>Email: <a href="mailto:yoshcallapp@gmail.com">yoshcallapp@gmail.com</a></li>
     <li>Website: <a href="https://yoshcall.vercel.app">yoshcall.vercel.app</a></li>
   </ul>
+  <p>We take privacy seriously and will respond to all inquiries within 5 business days.</p>
 </div>
 
 <footer>
-  <p>© 2025 Yosh Call. All rights reserved.</p>
+  <p>© 2026 Yosh Call. All rights reserved.</p>
   <p style="margin-top:8px;">
     <a href="/privacy">Privacy Policy</a>
     <a href="/terms">Terms of Service</a>
