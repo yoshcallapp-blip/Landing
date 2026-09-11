@@ -1,7 +1,9 @@
 {
   "rewrites": [
-    { "source": "/privacy",      "destination": "/privacy.html"      },
-    { "source": "/terms",        "destination": "/terms.html"        },
-    { "source": "/child-safety", "destination": "/child-safety.html" }
+    { "source": "/privacy",        "destination": "/privacy.html"        },
+    { "source": "/terms",          "destination": "/terms.html"          },
+    { "source": "/child-safety",   "destination": "/child-safety.html"   },
+    { "source": "/acceptable-use", "destination": "/aup.html"            },
+    { "source": "/law-enforcement","destination": "/law-enforcement.html" }
   ]
 }

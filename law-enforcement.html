@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Law Enforcement Guidelines — Yosh Call</title>
+  <meta name="description" content="Protocols and guidelines for law enforcement requests to Yosh Call." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://yoshcall.vercel.app/law-enforcement" />
+  <link rel="icon" type="image/png" href="/app_icon.png" />
+  <link rel="apple-touch-icon" href="/app_icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #1A1440; --surface: #231B54; --surface2: #2D2566;
+      --pink: #FC6076; --orange: #FF9A44;
+      --text: #FFFFFF; --muted: #9CA3AF; --border: rgba(255,255,255,0.08);
+      --grad: linear-gradient(135deg, #FC6076, #FF9A44);
+    }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--text); font-family: 'Outfit', sans-serif; line-height: 1.7; }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      padding: 18px 40px;
+      display: flex; align-items: center; justify-content: space-between;
+      background: rgba(26,20,64,0.85); backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .logo { font-size: 22px; font-weight: 800; background: var(--grad); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-decoration: none; }
+    .nav-back { color: var(--muted); font-size: 14px; text-decoration: none; display: flex; align-items: center; gap: 6px; transition: color .2s; }
+    .nav-back:hover { color: #fff; }
+
+    .page-wrap { max-width: 780px; margin: 0 auto; padding: 120px 24px 80px; }
+
+    h1 { font-size: 42px; font-weight: 900; background: var(--grad); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 8px; }
+    .last-updated { color: var(--muted); font-size: 14px; margin-bottom: 48px; }
+
+    h2 { font-size: 20px; font-weight: 700; color: #fff; margin: 40px 0 12px; padding-left: 12px; border-left: 3px solid #FC6076; }
+    p { color: #C4BFE0; font-size: 15px; margin-bottom: 14px; }
+    ul { color: #C4BFE0; font-size: 15px; padding-left: 20px; margin-bottom: 14px; }
+    ul li { margin-bottom: 8px; }
+    a { color: #FC6076; text-decoration: underline; }
+
+    footer {
+      text-align: center; padding: 32px 24px;
+      border-top: 1px solid var(--border); color: var(--muted); font-size: 13px;
+    }
+    footer a { color: var(--muted); text-decoration: none; margin: 0 8px; }
+    footer a:hover { color: #fff; }
+
+    @media (max-width: 600px) {
+      nav { padding: 16px 20px; }
+      h1 { font-size: 30px; }
+      .page-wrap { padding: 100px 20px 60px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="logo">Yosh Call</a>
+  <a href="/" class="nav-back">← Back to Home</a>
+</nav>
+
+<div class="page-wrap">
+  <h1>Law Enforcement Guidelines</h1>
+  <p class="last-updated">Last updated: September 11, 2026</p>
+
+  <p>Yosh Call ("we", "us", "our") is committed to cooperating with law enforcement agencies and government authorities in accordance with applicable law, while protecting the privacy rights of our users. This page describes our protocols for responding to law enforcement requests for information and for reporting illegal activity.</p>
+
+  <h2>1. Scope</h2>
+  <p>These guidelines apply to requests from law enforcement, courts, and government agencies for user data, account information, or content held by Yosh Call, including requests relating to civil and criminal investigations, and emergency situations involving a risk of death or serious physical harm.</p>
+
+  <h2>2. Legal Process Required</h2>
+  <p>Except in emergencies (see Section 5), we require valid legal process before disclosing non-public user information, consistent with applicable law. Depending on the type of data requested, this may include:</p>
+  <ul>
+    <li>A subpoena, for basic subscriber information (e.g., name, email, registration date)</li>
+    <li>A court order, for certain transactional and non-content records</li>
+    <li>A search warrant issued by a court of competent jurisdiction, for the contents of communications or stored content</li>
+  </ul>
+  <p>We review each request to confirm it is legally valid, properly issued by a court or agency of competent jurisdiction, and not overly broad. We reserve the right to reject, narrow, or seek clarification of any request that does not meet these standards.</p>
+
+  <h2>3. How to Submit a Request</h2>
+  <p>Law enforcement and government agencies may submit requests to:</p>
+  <ul>
+    <li>Email: <a href="mailto:yoshcallapp@gmail.com">yoshcallapp@gmail.com</a> (subject line: "Law Enforcement Request")</li>
+  </ul>
+  <p>Requests should be submitted on official agency letterhead or through official government channels, and must include:</p>
+  <ul>
+    <li>The requesting agency, badge/case number, and contact details of the requesting officer</li>
+    <li>The legal basis for the request (subpoena, court order, or warrant, attached as applicable)</li>
+    <li>The specific account identifiers (username, email, phone number, or user ID) or content being sought</li>
+    <li>The specific data or records requested and the relevant time period</li>
+  </ul>
+  <p>We may require requests to be sent from an official government or law-enforcement email domain, or otherwise independently verify the requester's identity, before processing.</p>
+
+  <h2>4. Preservation Requests</h2>
+  <p>We will preserve account records upon receipt of a written preservation request from law enforcement, pending the issuance of formal legal process, in accordance with applicable data preservation laws. Preservation requests should be sent to the email address above and should identify the specific account and the data to be preserved.</p>
+
+  <h2>5. Emergency Disclosure Requests</h2>
+  <p>Where we have a good-faith belief that an emergency involves imminent risk of death or serious physical injury to a person, we may voluntarily disclose relevant information to law enforcement without legal process, as permitted by applicable law. Emergency requests should be sent to <a href="mailto:yoshcallapp@gmail.com">yoshcallapp@gmail.com</a> with "EMERGENCY DISCLOSURE REQUEST" in the subject line, and should describe the nature of the emergency and the specific information needed.</p>
+
+  <h2>6. Child Safety Reports</h2>
+  <p>We report confirmed instances of child sexual abuse material (CSAM) and related exploitation to the National Center for Missing and Exploited Children (NCMEC) and cooperate fully with law enforcement in India and internationally regarding such matters. See our <a href="/child-safety">Child Safety Standards</a> for more information.</p>
+
+  <h2>7. Notice to Users</h2>
+  <p>Where permitted by law, we may notify the affected user before disclosing their information in response to a legal request. We may delay or forgo notice where we are prohibited by law or court order from providing it, or where we determine that notice would jeopardize an active investigation or risk harm to a person.</p>
+
+  <h2>8. Costs</h2>
+  <p>We do not currently charge a fee for responding to routine, properly issued law enforcement requests. We reserve the right to seek reimbursement of reasonable costs for unusually burdensome or voluminous requests, as permitted by applicable law.</p>
+
+  <h2>9. International Requests</h2>
+  <p>Requests originating outside India may be submitted through applicable mutual legal assistance treaty (MLAT) processes, letters rogatory, or other recognized international legal cooperation mechanisms. We evaluate international requests on a case-by-case basis in accordance with applicable law.</p>
+
+  <h2>10. Governing Law</h2>
+  <p>We process law enforcement requests in accordance with the laws of India and, where applicable, the laws of the requesting jurisdiction. Nothing in these guidelines shall be construed as a waiver of any legal rights, objections, or defenses available to Yosh Call.</p>
+
+  <h2>11. Contact</h2>
+  <p>For all law enforcement inquiries, contact:</p>
+  <p><strong>Email:</strong> <a href="mailto:yoshcallapp@gmail.com">yoshcallapp@gmail.com</a></p>
+</div>
+
+<footer>
+  <p>© 2026 Yosh Call. All rights reserved.</p>
+  <p style="margin-top:8px;">
+    <a href="/privacy">Privacy Policy</a>
+    <a href="/terms">Terms of Service</a>
+    <a href="/acceptable-use">Acceptable Use Policy</a>
+    <a href="/law-enforcement">Law Enforcement</a>
+    <a href="/">Home</a>
+  </p>
+</footer>
+
+</body>
+</html>
